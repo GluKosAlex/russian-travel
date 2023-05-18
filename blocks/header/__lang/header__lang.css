@@ -1,0 +1,8 @@
+.header__lang {
+  display: flex;
+  gap: 18px;
+  /* for content overflow */
+  flex-wrap: wrap;
+  margin: 9px 0 9px 18px;
+  justify-content: flex-end;
+}

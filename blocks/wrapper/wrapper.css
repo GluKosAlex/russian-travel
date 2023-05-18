@@ -1,0 +1,5 @@
+.wrapper {
+  padding-left: var(--main-padding-size);
+  padding-right: var(--main-padding-size);
+  box-sizing: border-box;
+}

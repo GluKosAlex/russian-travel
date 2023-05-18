@@ -1,0 +1,8 @@
+.place__title {
+  margin: 0;
+  padding: 0 var(--main-padding-size);
+
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 1.09;
+}
