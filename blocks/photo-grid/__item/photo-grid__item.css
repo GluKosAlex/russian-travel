@@ -3,6 +3,5 @@
   padding-bottom: 75%;
 
   /* white space remove */
-  font-size: 0;
-  line-height: 0;
+  display: flex;
 }

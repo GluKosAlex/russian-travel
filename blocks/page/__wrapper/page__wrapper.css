@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
 
-  min-height: 100vh; /* for sticky footer */
   min-width: 320px;
   max-width: 1280px;
   padding-top: 16px;

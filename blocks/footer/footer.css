@@ -2,10 +2,11 @@
   display: grid;
   gap: 48px;
   grid-template-columns: 1fr;
+  align-items: end;
 
   font-family: 'Inter', 'Segoe UI', sans-serif;
 
   @media screen and (min-width: 768px) {
-    grid-template-columns: 1fr minmax(min-content, max-content);
+    grid-template-columns: minmax(470px, 1fr) minmax(min-content, max-content);
   }
 }

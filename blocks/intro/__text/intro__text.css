@@ -1,4 +1,8 @@
 .intro__text {
   margin: 0;
-  margin-top: 25px; /* In case if the paragraph won't be along */
+  margin-top: 25px; /* In case if the paragraph won't be alone */
+
+  font-size: 16px;
+  line-height: 1.63;
+  font-weight: 400;
 }
