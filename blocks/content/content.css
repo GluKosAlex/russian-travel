@@ -1,3 +1,15 @@
 .content {
-  flex-grow: 1; /* для sticky footer */
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+
+  flex-grow: 1; /* for sticky footer */
+
+  @media screen and (min-width: 768px) {
+    gap: 88px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    gap: 92px;
+  }
 }

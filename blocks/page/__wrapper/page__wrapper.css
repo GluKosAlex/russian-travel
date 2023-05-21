@@ -1,0 +1,15 @@
+.page__wrapper {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh; /* for sticky footer */
+  min-width: 320px;
+  max-width: 1280px;
+  padding-top: 16px;
+  padding-bottom: 24px;
+  margin: 0 auto;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 28px;
+  }
+}

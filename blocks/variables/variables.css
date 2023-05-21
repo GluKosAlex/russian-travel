@@ -3,15 +3,5 @@
   --main-text-color: #fff;
   --main-text-mid-color: #aaa;
 
-  --main-text-font-size: 16px;
-  --main-text-line-height: 1.63;
-
   --main-padding-size: 16px;
-
-  --photo-grid-gap: 12px;
-
-  --screen-size-mobile: 320px;
-  --screen-size-tablet: 768px;
-  --screen-size-notebook: 1024px;
-  --screen-size-desktop: 1280px;
 }

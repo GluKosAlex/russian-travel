@@ -3,6 +3,9 @@
   gap: 48px;
   grid-template-columns: 1fr;
 
-  margin-top: 64px;
-  padding-bottom: 24px;
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+
+  @media screen and (min-width: 768px) {
+    grid-template-columns: 1fr minmax(min-content, max-content);
+  }
 }

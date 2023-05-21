@@ -8,4 +8,14 @@
   @media (max-width: 767px) {
     padding: 0 var(--main-padding-size);
   }
+
+  @media screen and (min-width: 768px) {
+  font-size: 42px;
+  line-height: 1.1;
+  }
+
+  @media screen and (min-width: 1024px) {
+  font-size: 72px;
+  line-height: 1.06;
+  }
 }
