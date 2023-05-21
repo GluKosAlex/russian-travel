@@ -21,10 +21,11 @@
 
 ## Инструкция по установке:
 
+* Клонировать репозиторий:
 ```
-Клонировать репозиторий: git clone https://github.com/GluKosAlex/russian-travel.git
+git clone https://github.com/GluKosAlex/russian-travel.git
 ```
-Запустить с помощью liveServer
+* Запустить с помощью liveServer
 
 ## Будущая доработка проекта:
 
