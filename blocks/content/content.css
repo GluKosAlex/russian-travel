@@ -4,12 +4,16 @@
   gap: 64px;
 
   flex-grow: 1; /* for sticky footer */
+}
 
-  @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
+  .content {
     gap: 88px;
   }
+}
 
-  @media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
+  .content {
     gap: 92px;
   }
 }

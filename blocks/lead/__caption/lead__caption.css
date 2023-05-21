@@ -8,12 +8,16 @@
   letter-spacing: 1.5px;
   text-align: left;
   text-transform: uppercase;
+}
 
-  @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
+  .lead__caption {
     --main-padding-size: 24px;
   }
+}
 
-  @media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
+  .lead__caption {
     --main-padding-size: 0;
   }
 }

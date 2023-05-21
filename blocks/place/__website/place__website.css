@@ -5,8 +5,10 @@
 
   justify-self: start;
   align-self: end;
+}
 
-  @media (max-width: 767px) {
+@media (max-width: 767px) {
+  .place__website {
     padding: 0 var(--main-padding-size);
   }
 }

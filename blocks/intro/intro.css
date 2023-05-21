@@ -1,7 +1,9 @@
 .intro {
   font-family: 'Inter', 'Segoe UI', sans-serif;
+}
 
-  @media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
+  .intro {
     max-width: 984px;
     margin: 0 auto;
   }
