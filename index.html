@@ -6,8 +6,8 @@
   <title>Путешествие по России</title>
   <link href="./pages/index.css" rel="stylesheet">
 </head>
-<body>
-  <div class="page">
+<body class="page">
+  <div class="page__wrapper">
 
     <header class="header wrapper">
       <img src="./images/header-logo.svg" alt="Логотип сайта. Графическая часть исполнена в виде карты России, а текстовая – Россия." class="header__logo">
@@ -17,7 +17,7 @@
       </nav>
     </header>
 
-    <main class="content">
+    <main class="content page__content">
 
       <section class="lead">
         <h1 class="lead__title">Путешествия по&nbsp;России</h1>
@@ -33,32 +33,30 @@
       </section>
 
       <section class="intro wrapper">
-        <h2 class="intro__title">Чего мы там не&nbsp;видели?</h2>
-        <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
-        <ul class="intro__list">
-          <li class="intro__list-item">Часовых поясов
-            <span class="intro__list-data">11</span>
-          </li>
-
-          <li class="intro__list-item">Объектов природного наследия ЮНЕСКО
-            <span class="intro__list-data">12</span>
-          </li>
-
-          <li class="intro__list-item">Объектов культурного наследия ЮНЕСКО
-            <span class="intro__list-data">16</span>
-          </li>
-
-          <li class="intro__list-item">Природных заповедников
-            <span class="intro__list-data">105</span>
-          </li>
-
-          <li class="intro__list-item">Аэропортов
-            <span class="intro__list-data">241</span>
-          </li>
-        </ul>
+        <div class="intro__wrapper">
+          <h2 class="intro__title">Чего мы там не&nbsp;видели?</h2>
+          <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
+          <ul class="intro__list">
+            <li class="intro__list-item">Часовых поясов
+              <span class="intro__list-data">11</span>
+            </li>
+            <li class="intro__list-item">Объектов природного наследия ЮНЕСКО
+              <span class="intro__list-data">12</span>
+            </li>
+            <li class="intro__list-item">Объектов культурного наследия ЮНЕСКО
+              <span class="intro__list-data">16</span>
+            </li>
+            <li class="intro__list-item">Природных заповедников
+              <span class="intro__list-data">105</span>
+            </li>
+            <li class="intro__list-item">Аэропортов
+              <span class="intro__list-data">241</span>
+            </li>
+          </ul>
+        </div>
       </section>
 
-      <section class="photo-grid">
+      <section class="photo-grid wrapper">
         <ul class="photo-grid__list">
           <li class="photo-grid__item">
             <img src="./images/photo-grid-train.jpg" alt="Фотография с видом из окна поезда на берег." class="photo-grid__image">
@@ -192,7 +190,7 @@
           <a href="https://travel.yandex.ru" class="footer__link link" target="_blank">Путешествия</a>
         </li>
       </ul>
-      <p class="footer__copyright">© 2023. Глушенков Константин</p>
+      <p class="footer__copyright">© 2023. Глушенков&nbsp;Константин</p>
     </footer>
   </div>
 </body>
