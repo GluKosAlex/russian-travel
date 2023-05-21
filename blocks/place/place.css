@@ -18,7 +18,6 @@
   .place {
     grid-template-columns: 440px 1fr;
     column-gap: 32px;
-    font-size: 18px;
   }
 }
 
