@@ -5,3 +5,9 @@
   line-height: 1.63;
   font-weight: 400;
 }
+
+@media screen and (min-width: 1024px) {
+  .place {
+    font-size: 18px;
+  }
+}
