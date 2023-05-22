@@ -1,7 +1,4 @@
 .photo-grid__item {
-  position: relative;
-  padding-bottom: 75%;
-
   /* white space remove */
   display: flex;
 }
